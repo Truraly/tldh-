@@ -18,7 +18,7 @@ function loadXMLDoc() {
       print_out(xmlhttp.responseText);
     }
   }
-  xmlhttp.open("GET", "/网站整理.md?" + ti_td_s(), true);
+  xmlhttp.open("GET", "AllWebs.md?" + ti_td_s(), true);
   xmlhttp.send();
 }
 
