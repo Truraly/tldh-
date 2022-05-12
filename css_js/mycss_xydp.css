@@ -290,22 +290,27 @@ div.cli_s {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+div.cli_s_d{
+    width: 100%;
 }
 
-div.cli_s_d a {
+div.cli_s_d .a_ {
     border-color: #acacac;
     border-style: solid;
     border-width: 2px;
     margin: 10px 15px 25px 15px;
-    width: 200px;
-    height: 70px;
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+    color:#000000;
+    width :auto; 
+    height:auto; 
+    padding:10px;
 }
 
 div.cli_s_d img {
