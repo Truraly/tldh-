@@ -1,0 +1,22 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.node.json",
+    "include": [
+        "vite.config.*",
+        "vitest.config.*",
+        "cypress.config.*",
+        "playwright.config.*"
+    ],
+    "compilerOptions": {
+        "composite": true,
+        "types": [
+            "node"
+        ],
+        "importsNotUsedAsValues": "error",
+        "ignoreDeprecations": "5.0",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "es5",
+    }
+}

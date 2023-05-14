@@ -1,0 +1,21 @@
+/* 用于展示文档 */
+/* 在# mainFrame里 */
+
+#mainFrame {
+    padding-top: 50px;
+}
+#main {
+    margin-left: 0px;
+}
+#mainFrame p {
+    font-family: consolas;
+    font-size: 20px;
+}
+
+#mainFrame ol {
+    font-size: 20px;
+}
+#mainFrame{
+    padding-left: 15%;
+    padding-right: 15%;
+}

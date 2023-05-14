@@ -1,0 +1,29 @@
+/*---------- 全局 -----------*/
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #f9f9f9;
+}
+
+/* -------链接样式表  ---- */
+/* 已访问链接,未访问链接 */
+a:visited,
+a:link {
+    color: #000000;
+}
+
+/* 鼠标移动到链接上,鼠标点击时 */
+a:hover,
+a:active {
+    color: #1ecd97;
+}
+
+a {
+    /* 去除下划线 */
+    text-decoration: none !important;
+}
